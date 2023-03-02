@@ -1,8 +1,8 @@
 # Random Quotes API
 
-This is an API that provides a list of quotes and allows adding, deleting, and getting random quotes.
+This API provides a list of quotes and allows adding, deleting, and getting random quotes.
 
-## Technologies used
+## Technologies Used
 
 - Java
 - Spring Boot
@@ -16,9 +16,13 @@ This is an API that provides a list of quotes and allows adding, deleting, and g
 3. Open the `application.properties` file in the project and configure your MySQL database details.
 4. Open a terminal and navigate to the project directory.
 5. Run the following command to build the project and generate the JAR file:
+
 mvn clean install
+
 6. Run the following command to start the application:
+
 java -jar target/random-quotes-1.0.jar
+
 
 7. The application should now be available at `http://localhost:8080`.
 
@@ -37,22 +41,17 @@ _Response:_
 
 ```json
 {
- "id": 5,
- "text": "Creativity is intelligence having fun.",
- "author": "Albert Einstein"
+"id": 5,
+"text": "Creativity is intelligence having fun.",
+"author": "Albert Einstein"
 }
-
-### POST /api/quotes
+POST /api/quotes
 Request:
 {
     "text": "Happiness is not something ready made. It comes from your own actions.",
     "author": "Dalai Lama"
 }
 Response:
-
 The quote was successfully added
 Contribution
-
-###If you would like to contribute to this project, feel free to open a new pull request or message the repository owner.
-
-
+If you would like to contribute to this project, feel free to open a new pull request or message the repository owner.
