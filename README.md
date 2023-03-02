@@ -45,8 +45,10 @@ _Response:_
 "text": "Creativity is intelligence having fun.",
 "author": "Albert Einstein"
 }
-POST /api/quotes
-Request:
+
+### POST /api/quotes
+_Request:_
+```json
 {
     "text": "Happiness is not something ready made. It comes from your own actions.",
     "author": "Dalai Lama"
