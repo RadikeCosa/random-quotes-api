@@ -45,6 +45,7 @@ _Response:_
 "text": "Creativity is intelligence having fun.",
 "author": "Albert Einstein"
 }
+```
 
 ### POST /api/quotes
 _Request:_
@@ -53,7 +54,11 @@ _Request:_
     "text": "Happiness is not something ready made. It comes from your own actions.",
     "author": "Dalai Lama"
 }
-Response:
-The quote was successfully added
-Contribution
+```
+
+```json
+Response:The quote was successfully added
+```
+
+### Contribution
 If you would like to contribute to this project, feel free to open a new pull request or message the repository owner.
